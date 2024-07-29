@@ -34,6 +34,8 @@ function activate(context) {
 				text_editor.edit((edit_builder) => {
 					edit_builder.replace(new vscode.Range(0, 0, text_editor.document.lineCount, 0), result);
 				});
+			} else {
+				vscode.window.showErrorMessage("Failed to beautify");
 			};
 		} catch (err) {
 			vscode.window.showErrorMessage(err);

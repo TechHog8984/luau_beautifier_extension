@@ -15,6 +15,7 @@ Nothing
 ## Known Issues
 
 Parse errors on the input file only show in debug console
+Breaks on big files
 
 ## For more information
 

@@ -3,6 +3,11 @@
   "displayName": "Luau Beautifier",
   "description": "An extension for TechHog's Luau Beautifier",
   "version": "0.0.1",
+  "publisher": "techhog",
+  "repository": {
+    "directory": "",
+    "url": "https://github.com/TechHog8984/luau_beautifier_extension"
+  },
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -32,9 +37,5 @@
     "typescript": "^5.4.5",
     "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.4.0"
-  },
-  "files": [
-    "out",
-    "beautifier"
-  ]
+  }
 }
