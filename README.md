@@ -2,7 +2,7 @@
 
 ## Features
 
-
+Beautifies luau code
 
 ## Requirements
 
